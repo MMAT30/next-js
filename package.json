@@ -9,6 +9,10 @@
     "lint": "next lint",
     "prepare": "husky install"
   },
+  "engines": {
+    "node": ">=18",
+    "yarn": ">=4"
+  },
   "preinstall": "npx only-allow yarn",
   "dependencies": {
     "next": "14.2.5",
